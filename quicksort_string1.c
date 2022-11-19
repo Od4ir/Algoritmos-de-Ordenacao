@@ -10,7 +10,7 @@ void troca (elemento *v, int i, int j){
   elemento aux;
   aux = v[j];
   v[j] = v[i];
-   v[i] = aux;
+  v[i] = aux;
 }
 
 int compara_elemento(elemento elem1, elemento elem2) {
@@ -57,16 +57,33 @@ void quicksort (elemento *v, int ini, int fim) {
 }
 
 int main() {
-  int i, n;
+  int i, n, op;
   elemento * v;
+  FILE *f;
+  char file_name[100];
+  int cont = 0;
 
+  printf("Digite qual teste deseja realizar: \n");
+  printf(" >> 1 - Vetor Ordenado\n >> 2 - Vetor Aleatório\n >> 3 - Vetor Invertido\n >> 4 - Vetor Parcialmente Ordenado\n");
+
+  scanf("%d", &op);
+  if(op == 1) {
+    char file_name[] = "teste_o.txt";
+  }
+  else if(op == 2) {
+    char file_name[] = "teste_a.txt";
+  }
+
+  f = fopen(file_name, "r");
+   fscanf(f, "%d", &n);
   printf("Digite o número de elementos: ");
   scanf("%d",&n);
   v = malloc (n * sizeof(elemento));
   
-  printf("Digite os elementos: \n");
+  printf("Pegando os elementos: \n");
+ 
   for (i = 0; i < n; i++) { 
-        scanf(" %[^\n]", v[i].letras);
+    fscanf(f, "%s", v[i].letras);
   }
 
   quicksort(v, 0, n - 1);
