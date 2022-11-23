@@ -8,6 +8,6 @@ typedef struct {
 
 void CorrigeHeapDescendo(item *v, int n, int i);
 void ConstroiHeap (item *v, int n);
-void troca(item i, item j);
+void troca(item *i, item *j);
 
 
