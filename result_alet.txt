@@ -1,0 +1,44 @@
+Teste com 250 palavras: 
+  Comparações: 2717
+  Trocas: 1028
+
+Teste com 500 palavras: 
+  Comparações: 6407
+  Trocas: 1851
+
+Teste com 1000 palavras: 
+  Comparações: 16520
+  Trocas: 4857
+
+Teste com 2000 palavras: 
+  Comparações: 50952
+  Trocas: 12695
+
+Teste com 4000 palavras: 
+  Comparações: 156217
+  Trocas: 26602
+
+Teste com 8000 palavras: 
+  Comparações: 534641
+  Trocas: 55252
+
+Teste com 16000 palavras: 
+  Comparações: 1951143
+  Trocas: 141278
+
+Teste com 32000 palavras: 
+  Comparações: 7242368
+  Trocas: 257033
+
+Teste com 64000 palavras: 
+  Comparações: 28404110
+  Trocas: 533138
+
+Teste com 128000 palavras: 
+  Comparações: 112691824
+  Trocas: 1078424
+
+Teste com 256000 palavras: 
+  Comparações: 454236826
+  Trocas: 2292500
+

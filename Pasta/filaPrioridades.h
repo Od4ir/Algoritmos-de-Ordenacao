@@ -1,13 +1,9 @@
-typedef int item;
-
 typedef struct {
-    int tamanho;
-    int capacidade;
-    item *elemento;
-} heap;
+    char letras[10];
+} elemento;
 
-void CorrigeHeapDescendo(item *v, int n, int i);
-void ConstroiHeap (item *v, int n);
-void troca(item *i, item *j);
+void CorrigeHeapDescendo(elemento *v, int n, int i);
+void ConstroiHeap (elemento *v, int n);
+void troca(elemento *v, int i, int j);
 
 
