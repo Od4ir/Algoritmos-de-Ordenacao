@@ -1,0 +1,5 @@
+1 - Verificar se está utilizando o MAX para alguma coisa no Merge e no Inserion;
+2 - Mudar tipo dos contadores para long int;
+3 - Mudar trc e atb para mov, de "movimentações" dos elementos do vetor;
+4 - Pensar sobre fazer função de printando para arquivos;
+5 - Fazer o heap para string;
