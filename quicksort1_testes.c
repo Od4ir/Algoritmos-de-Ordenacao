@@ -1,3 +1,6 @@
+/* QUICKSORT VERSÃO 1 - TESTES */
+/* Escolhendo pivo como o primeiro elemento e utilizando versão 1 do particiona. */
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -13,8 +16,6 @@ void troca (elemento *v, int i, int j, long int *cont){
   strcpy(v[i].letras, aux.letras);
   *cont = *cont + 1;
 }
-
-// Verificar trocas de palavras iguais;
 
 int particiona (elemento *v, int ini, int fim, long int *cont_trc, long int *cont_cmp) {
   int i, j;
@@ -49,32 +50,29 @@ int main() {
   FILE *f_teste, *f_new;
   char file_teste[100] = "teste_a.txt";
   char file_new[100] = "result_alet.txt";
-  int k = 1;
+  int i, j, k = 1;
     
   f_new = fopen(file_new, "w");
+  fprintf(f_new, "Testes com %s!\n",file_teste);
 
-  for(int i = 0; i <= 10; i++) {
+  for(i = 0; i <= 10; i++) {
     cont_cmp = cont_trc = 0;
     f_teste = fopen(file_teste, "r");
     v = malloc(sizeof(elemento) * (k * 250));
-    for(int j = 0; j < k * 250; j++) {
-        fscanf(f_teste, "%s", v[j].letras);
+    for(j = 0; j < k * 250; j++) {
+      if(!(fscanf(f_teste, "%s", v[j].letras)))
+        j--;
+
     }
     quicksort(v, 0, (k*250) - 1, &cont_trc, &cont_cmp);
-    printf("1 Até aqui, ok\n");
-    printf("Teste com %d palavras: \n  Comparações: %ld\n  Trocas: %ld\n\n", k*250, cont_cmp, cont_trc);
+    /*printf("Teste com %d palavras: \n  Comparações: %ld\n  Trocas: %ld\n\n", k*250, cont_cmp, cont_trc); */
     fprintf(f_new, "Teste com %d palavras: \n  Comparações: %ld\n  Trocas: %ld\n\n", k*250, cont_cmp, cont_trc);
-    // Imprimir palavras no arquivo:
-    /*for(int j = 0; j < k * 250; j++) {
-        
-    }*/
+
     free(v);
     fclose(f_teste);
     k = k*2;
-    //printf("%d\n", k);
   }
 return 0;
-    
-
-  
 }
+
+/*gcc -Wall -ansi -pedantic -O2 */

@@ -1,3 +1,5 @@
+Quicksort1_teste.c
+
 Teste com 250 palavras: 
   Comparações: 2717
   Trocas: 1028
