@@ -1,3 +1,10 @@
+/* -----------------------------------------------
+>>> QUICKSORT - VERSÃO 2
+
+Quicksort utilizando como pivo o elemento final.
+Com versão 1 do particiona. 
+------------------------------------------------*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
