@@ -21,8 +21,8 @@ int main () {
     long int cont_cmp, cont_mov;
     elemento * v;
     FILE *f_teste, *f_new;
-    char file_teste[100] = "teste_a.txt";
-    char file_new[100] = "resultinho.txt";
+    char file_teste[100] = "teste_p.txt";
+    char file_new[100] = "heapsort_result_par.txt";
 
     f_new = fopen(file_new, "w");
     fprintf(f_new, "Testes com %s!\n",file_teste);

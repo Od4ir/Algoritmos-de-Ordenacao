@@ -55,11 +55,15 @@ void intercala (int p, int q, int r, elemento *v, int *cmp, int *mov)  {
   A = malloc (n1 * sizeof (elemento));      
   B = malloc (n2 * sizeof (elemento));      
 
-  for (i = 0; i < n1; i++)
+  for (i = 0; i < n1; i++) { 
     A[i] = v[p+i];
+    *mov = *mov + 1;
+  }
 
-  for (i = 0; i < n2; i++)
+  for (i = 0; i < n2; i++) { 
     B[i] = v[q+1 + i];
+    *mov = *mov + 1;
+  }
 
   i = 0, j = 0;
   k = p;

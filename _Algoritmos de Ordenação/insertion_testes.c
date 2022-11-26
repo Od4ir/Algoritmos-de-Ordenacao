@@ -24,8 +24,8 @@ int main() {
   long int cont_cmp, cont_mov;
   elemento * v;
   FILE *f_teste, *f_new;
-  char file_teste[100] = "teste_a.txt";
-  char file_new[100] = "resultinho6.txt";
+  char file_teste[100] = "teste_p.txt";
+  char file_new[100] = "insertion_result_par.txt";
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
@@ -42,6 +42,7 @@ int main() {
     }
 
     insertionSort(v, (k * 250), &cont_cmp, &cont_mov);
+    printf("Teste %d ok!\n", i + 1);
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
     fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
     fprintf(f_new, "Numero de Movimentações:.... %ld\n\n", cont_mov);
