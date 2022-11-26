@@ -1,0 +1,8 @@
+Para compilar o Heapsort faça:
+
+>>> Para compilar:
+gcc -o heapsort -Wall heapsort.c filaPrioridades.c
+
+>>> Para rodar o programa:
+./heapsort 
+
