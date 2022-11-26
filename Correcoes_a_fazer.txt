@@ -1,4 +1,0 @@
-1 - Fazer vetor ordenado de tras para frente com quick_aux.c;
-2 - Fazer vetores pequenos para testes empiricos;
-3 - Começar relatório no Canva;
-
