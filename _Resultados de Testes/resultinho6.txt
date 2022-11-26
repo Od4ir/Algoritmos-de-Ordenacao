@@ -56,3 +56,7 @@ TESTE 11 - 256000 Palavras
 Número de Comparações:..... 16099159970
 Número de Movimentações:.... 16099159970
 
+real    3m3,109s
+user    3m3,101s
+sys     0m0,004s
+
