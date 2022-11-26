@@ -1,8 +1,14 @@
-/* -----------------------------------------------
->>> HEAPSORT <<< 
+/*--------------------------------------------------
+/// HEAPSORT ///
+> Versão com Entrada / Saída no próprio terminal <
 
-Heapsort versão 1 - Ordenação de strings.
-------------------------------------------------*/
+Algoritmo de ordenação adaptado para ordenar strings. 
+Basta digitar o número de elementos que deseja orde-
+nar, isto é, o número de palavras e depois digitar as
+palavras. 
+
+O resultado ordenado será impresso no terminal. 
+---------------------------------------------------*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,7 +25,7 @@ int main () {
 
     printf("\n///----------- Ordenação com Heapsort -----------///\n\n");
 
-    printf(">>> Digite o número de elementos: ");
+    printf(">>> Digite o numero de elementos: ");
     scanf("%d",&n);
     n = n + 1;
     v = malloc (n * sizeof(elemento));
@@ -52,6 +58,6 @@ void printando(elemento *v, int n, long int cmp, long int mov) {
         printf("%dº : ", i);
         printf("%s\n", v[i].letras);
     }
-    printf("\nNúmero de Comparações:..... %ld\n", cmp);
-    printf("Número de Movimentações:.... %ld\n\n", mov);
+    printf("\nNumero de Comparacoes:..... %ld\n", cmp);
+    printf("Numero de Movimentações:.... %ld\n\n", mov);
 }  

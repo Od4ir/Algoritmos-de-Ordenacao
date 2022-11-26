@@ -20,7 +20,7 @@ int main() {
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
-  fprintf(f_new, "///------ Ordenação com Quicksort - Versão 2 ------///\n\n");
+  fprintf(f_new, "///------ Ordenação com Quicksort - Versao 2 ------///\n\n");
 
   /* Lendo arquivo e executando os testes: */
   for(i = 0; i <= 10; i++) {
@@ -32,8 +32,8 @@ int main() {
     }
     quicksort(v, 0, (k * 250) - 1, &cont_trc, &cont_cmp);
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
-    fprintf(f_new, "\nNúmero de Comparações:..... %ld\n", cont_cmp);
-    fprintf(f_new, "Número de Trocas:.......... %ld\n\n", cont_trc);
+    fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
+    fprintf(f_new, "Numero de Trocas:.......... %ld\n\n", cont_trc);
 
     /*for(int j = (k - 1)*250; j < (k - 1)*250 + 100; j++) {
         fprintf(f_new, "%s\n", v[j].letras);

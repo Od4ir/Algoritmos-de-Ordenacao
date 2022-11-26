@@ -1,5 +1,5 @@
 Testes com teste_a.txt!
-///------ Ordenação com Insertion - Versão 1 ------///
+///------ Ordenação com Insertion - Versao 1 ------///
 
 TESTE 1 - 250 Palavras
 

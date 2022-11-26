@@ -1,5 +1,5 @@
 typedef struct {
-    char letras[10];
+    char letras[11];
 } elemento;
 
 void CorrigeHeapDescendo(elemento *v, int n, int i, long int *cmp, long int *mov);

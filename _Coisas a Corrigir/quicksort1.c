@@ -22,9 +22,9 @@ int main() {
   int i, n, cont_trc = 0, cont_cmp = 0;
   elemento * v;
 
-  printf("\n///------ Ordenação com Quicksort - Versão 2 ------///\n\n");
+  printf("\n///------ Ordenação com Quicksort - Versao 2 ------///\n\n");
 
-  printf(">>> Digite o número de elementos: ");
+  printf(">>> Digite o numero de elementos: ");
   scanf("%d",&n);
   v = malloc (n * sizeof(elemento));
   
@@ -82,7 +82,7 @@ void printando(elemento *v, int n, int trc, int cmp) {
         printf("%dº : ", i + 1);
         printf("%s\n", v[i].letras);
     }
-    printf("\nNúmero de Comparações:..... %d\n", cmp);
-    printf("Número de Trocas:.......... %d\n\n", trc);
+    printf("\nNumero de Comparacoes:..... %d\n", cmp);
+    printf("Numero de Trocas:.......... %d\n\n", trc);
 
 }   

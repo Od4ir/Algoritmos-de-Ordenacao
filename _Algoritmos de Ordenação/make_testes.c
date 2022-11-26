@@ -1,3 +1,15 @@
+/*--------------------------------------------------
+PROGRAMA PARA FABRICAR ARQUIVOS DE TESTE
+NO FORMATO .txt
+
+O programa recebe um inteiro n e abre um dos seguin-
+tes arquivos:
+- words_ordenadas.txt;
+- words_aleatorias.txt;
+E devolve um arquivo nomeado pelo usuário com n pa-
+lavras selecionadas a partir do arquivo escolhido. 
+----------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -6,23 +18,13 @@ typedef struct elemento {
     char letras[10];
 } elemento;
 
-/* PROGRAMA PARA FABRICAR ARQUIVOS DE TESTE NO FORMATO .txt
-
- O programa recebe um inteiro n e abre um dos seguintes arquivos:
- - words_ordenadas.txt;
- - words_aleatorias.txt;
- E devolve um arquivo nomeado pelo usuário com n palavras selecio-
- nadas a partir do arquivo escolhido. 
-
- */
-
 int main (){
     char nome_teste[100], *fonte_escolhida;
     elemento word_aux;
     FILE *f_new, *file_words;
     int numero_palavras, i, aux, not_this, op;
 
-    printf("Digite o número de palavras que deseja no seu arquivo teste: \n");
+    printf("Digite o numero de palavras que deseja no seu arquivo teste: \n");
     scanf("%d", &numero_palavras);
 
     printf("Digite o nome do arquivo .txt que deseja salvar as palavras: \n");

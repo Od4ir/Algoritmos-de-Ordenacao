@@ -1,10 +1,20 @@
+/*--------------------------------------------------
+/// INSERTION_SORT - Versão Testes ///
+> Versão com Entrada / Saída em arquivos <
+
+Algoritmo de ordenação adaptado para ordenar strings. 
+No arquivo de saída será impresso o nome do arquivo 
+utilizado como entrada, o número de palavras em cada
+teste e quantas comparações e movimentações foram fei-
+tas dentro do vetor de palavras. 
+---------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define MAX 10 //Define o número máximo de caracteres das strings;
 
 typedef struct {
-    char letras[10];
+  char letras[11];
 } elemento;
 
 void insertionSort (elemento *A, int n, long int *cmp, long int *mov);
@@ -19,24 +29,27 @@ int main() {
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
-  fprintf(f_new, "///------ Ordenação com Insertion - Versão 1 ------///\n\n");
-/* Lendo arquivo e executando os testes: */
+  fprintf(f_new, "///-------- Ordenação com Insertion_Sort --------///\n\n");
+
+  /* Lendo arquivo e executando os testes: */
   for(i = 0; i <= 10; i++) {
     cont_cmp = 0; cont_mov = 0;
     f_teste = fopen(file_teste, "r");
     v = malloc(sizeof(elemento) * (k * 250));
+
     for(j = 0; j < (k * 250); j++) {
-        fscanf(f_teste, "%s", v[j].letras);
+      fscanf(f_teste, "%s", v[j].letras);
     }
+
     insertionSort(v, (k * 250), &cont_cmp, &cont_mov);
-    printf("Teste %d Certo!\n", (i + 1));
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
-    fprintf(f_new, "\nNúmero de Comparações:..... %ld\n", cont_cmp);
-    fprintf(f_new, "Número de Movimentações:.... %ld\n\n", cont_mov);
+    fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
+    fprintf(f_new, "Numero de Movimentações:.... %ld\n\n", cont_mov);
 
     /*for(int j = (k - 1)*250; j < (k - 1)*250 + 100; j++) {
         fprintf(f_new, "%s\n", v[j].letras);
-    }*/
+    }
+    fprintf(f_new, "\n"); */
 
     free(v);
     fclose(f_teste);
@@ -49,18 +62,13 @@ int main() {
 void insertionSort (elemento *A, int n, long int *cmp,long int *mov) {
   int i, j;
   elemento chave;
-  /* a cada iteração, teremos o vetor A[1..i] ordenado */
-  /* começamos de A[i], porque obviamente o vetor em A[0..0] está 
-     trivialmente ordenado */
-     
+
   for (i = 1; i < n; i++) {
     chave = A[i];
     j = i - 1;
 
-    /* encontra a posicao correta de chave (A[i])
-       no vetor A[0..i-1] */
     *cmp = *cmp + 1;
-    while (j >= 0 && (strcmp(A[j].letras, chave.letras) > 0)) {      //(compara_elemento(A[j], chave))) {    //  A[j] > chave) {
+    while (j >= 0 && (strcmp(A[j].letras, chave.letras) > 0)) {    
       *cmp = *cmp + 1;
       A[j + 1] = A[j];
       *mov = *mov + 1;

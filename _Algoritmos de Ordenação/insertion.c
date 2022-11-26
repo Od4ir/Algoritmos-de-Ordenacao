@@ -1,10 +1,21 @@
+/*--------------------------------------------------
+/// INSERTION_SORT ///
+> Versão com Entrada / Saída no próprio terminal <
+
+Algoritmo de ordenação adaptado para ordenar strings. 
+Basta digitar o número de elementos que deseja orde-
+nar, isto é, o número de palavras e depois digitar as
+palavras. 
+
+O resultado ordenado será impresso no terminal. 
+---------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define MAX 10 //Define o número máximo de caracteres das strings;
 
 typedef struct {
-  char letras[10];
+  char letras[11];
 } elemento;
 
 void insertionSort (elemento *A, int n, long int *cmp, long int *mov);
@@ -15,9 +26,9 @@ int main() {
   long int cont_cmp = 0, cont_mov = 0;
   elemento * v;
 
-  printf("\n///------ Ordenação com InsertionSort - Versão 1 ------///\n\n");
+  printf("\n///-------- Ordenação com Insertion_Sort --------///\n\n");
 
-  printf(">>> Digite o número de elementos: ");
+  printf(">>> Digite o numero de elementos: ");
   scanf("%d",&n);
   v = malloc (n * sizeof(elemento));
   
@@ -35,16 +46,13 @@ int main() {
 void insertionSort (elemento *A, int n, long int *cmp,long int *mov) {
   int i, j;
   elemento chave;
-  /* a cada iteração, teremos o vetor A[1..i] ordenado */
-  /* começamos de A[i], porque obviamente o vetor em A[0..0] está trivialmente ordenado */
      
   for (i = 1; i < n; i++) {
     chave = A[i];
     j = i - 1;
 
-    /* encontra a posicao correta de chave (A[i]) no vetor A[0..i-1] */
     *cmp = *cmp + 1;
-    while (j >= 0 && (strcmp(A[j].letras, chave.letras) > 0)) {      //(compara_elemento(A[j], chave))) {    //  A[j] > chave) {
+    while (j >= 0 && (strcmp(A[j].letras, chave.letras) > 0)) {   
       *cmp = *cmp + 1;
       A[j + 1] = A[j];
       *mov = *mov + 1;
@@ -63,6 +71,6 @@ void printando(elemento *v, int n, long int cmp, long int mov) {
         printf("%dº : ", i + 1);
         printf("%s\n", v[i].letras);
     }
-    printf("\nNúmero de Comparações:..... %ld\n", cmp);
-    printf("Número de Movimentações:.... %ld\n\n", mov);
+    printf("\nNumero de Comparacoes:..... %ld\n", cmp);
+    printf("Numero de Movimentações:.... %ld\n\n", mov);
 }   

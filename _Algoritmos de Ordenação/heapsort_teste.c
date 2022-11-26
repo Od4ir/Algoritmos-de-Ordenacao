@@ -1,8 +1,13 @@
-/* -----------------------------------------------
->>> HEAPSORT - Versão Testes <<< 
+/*--------------------------------------------------
+/// HEAPSORT - Versão Testes ///
+> Versão com Entrada / Saída em arquivos <
 
-Heapsort versão testes - Ordenação de strings.
-------------------------------------------------*/
+Algoritmo de ordenação adaptado para ordenar strings. 
+No arquivo de saída será impresso o nome do arquivo 
+utilizado como entrada, o número de palavras em cada
+teste e quantas comparações e movimentações foram fei-
+tas dentro do vetor de palavras. 
+---------------------------------------------------*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,25 +26,26 @@ int main () {
 
     f_new = fopen(file_new, "w");
     fprintf(f_new, "Testes com %s!\n",file_teste);
-    fprintf(f_new, "///------ Ordenação com Heapsort ------///\n\n");
+    fprintf(f_new, "///-------- Ordenação com Heapsort --------///\n\n");
 
     /* Lendo arquivo e executando os testes: */
     for(i = 0; i <= 10; i++) {
         cont_cmp = 0; cont_mov = 0;
         f_teste = fopen(file_teste, "r");
         v = malloc(sizeof(elemento) * (k * 250 + 1));
+
         for(j = 1; j < (k * 250) + 1; j++) {
             fscanf(f_teste, "%s", v[j].letras);
         }
         heapsort(v, (k * 250), &cont_cmp, &cont_mov);
-        printf("Teste %d certo!\n", i + 1);
         fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
-        fprintf(f_new, "\nNúmero de Comparações:..... %ld\n", cont_cmp);
-        fprintf(f_new, "Número de Movimentações:.......... %ld\n\n", cont_mov);
+        fprintf(f_new, "\nNumero de Comparacoes:............ %ld\n", cont_cmp);
+        fprintf(f_new, "Numero de Movimentações:.......... %ld\n\n", cont_mov);
 
-        for(int j = (k - 1)*250; j < (k - 1)*250 + 100; j++) {
+        /*for(int j = (k - 1)*250; j < (k - 1)*250 + 100; j++) {
             fprintf(f_new, "%s\n", v[j].letras);
         }
+        fprintf(f_new, "\n"); */
 
         free(v);
         fclose(f_teste);
