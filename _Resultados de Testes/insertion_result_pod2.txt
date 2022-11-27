@@ -6,176 +6,66 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:..... 31119
 Numero de Movimentações:.... 31119
 
-AAAAAA
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 124744
 Numero de Movimentações:.... 124744
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 499494
 Numero de Movimentações:.... 499494
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 1998994
 Numero de Movimentações:.... 1998994
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 7997994
 Numero de Movimentações:.... 7997994
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 31995994
 Numero de Movimentações:.... 31995994
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 127991994
 Numero de Movimentações:.... 127991994
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 511983994
 Numero de Movimentações:.... 511983994
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 2047967994
 Numero de Movimentações:.... 2047967994
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 8191935994
 Numero de Movimentações:.... 8191935994
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 11 - 256000 Palavras
 
 Numero de Comparacoes:..... 32767615996
 Numero de Movimentações:.... 32767615996
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 real    5m58,694s
 user    5m58,675s

@@ -6,160 +6,60 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:..... 249
 Numero de Movimentacoes:.......... 30807
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 499
 Numero de Movimentacoes:.......... 122932
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 999
 Numero de Movimentacoes:.......... 494682
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 1999
 Numero de Movimentacoes:.......... 1988182
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 3999
 Numero de Movimentacoes:.......... 7975182
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 7999
 Numero de Movimentacoes:.......... 31949182
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 15999
 Numero de Movimentacoes:.......... 127897182
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 31999
 Numero de Movimentacoes:.......... 511793182
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 63999
 Numero de Movimentacoes:.......... 2047585182
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 127999
 Numero de Movimentacoes:.......... 8191169182
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 real    0m25,433s
 user    0m25,429s

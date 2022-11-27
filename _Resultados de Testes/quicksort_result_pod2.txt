@@ -6,160 +6,59 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:..... 30718
 Numero de Movimentacoes:.......... 15540
 
-AAAAAA
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 123343
 Numero de Movimentacoes:.......... 62040
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 496093
 Numero de Movimentacoes:.......... 248790
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 1991593
 Numero de Movimentacoes:.......... 997290
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 7982593
 Numero de Movimentacoes:.......... 3994290
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 31964593
 Numero de Movimentacoes:.......... 15988290
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 127928593
 Numero de Movimentacoes:.......... 63976290
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 511856593
 Numero de Movimentacoes:.......... 255952290
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 2047712593
 Numero de Movimentacoes:.......... 1023904290
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 8191424593
 Numero de Movimentacoes:.......... 4095808290
 
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
 
 real    0m48,311s
 user    0m48,250s

@@ -6,10 +6,12 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:..... 2047
 Numero de Movimentacoes:.......... 984
 
+
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 5807
 Numero de Movimentacoes:.......... 2295
+
 
 TESTE 3 - 1000 Palavras
 
@@ -21,6 +23,7 @@ TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 49402
 Numero de Movimentacoes:.......... 11776
+
 
 TESTE 5 - 4000 Palavras
 
@@ -62,6 +65,7 @@ TESTE 11 - 256000 Palavras
 
 Numero de Comparacoes:..... 454889884
 Numero de Movimentacoes:.......... 2285586
+
 
 real    0m1,623s
 user    0m1,619s

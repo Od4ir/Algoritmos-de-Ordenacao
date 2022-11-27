@@ -6,176 +6,66 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:..... 1666
 Numero de Movimentações:....... 3988
 
-A
-AUTOR
-BORBA
-Borba
-Braz
-CAPITULO
-CAPITULO
-CAPITULO
-Christiano
-Contos
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 3849
 Numero de Movimentações:....... 8976
 
-estrada
-eu
-explica
-fazer
-fazia
-felicidade
-figuras
-filho
-fina
-fitava
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 8715
 Numero de Movimentações:....... 19952
 
-para
-para
-para
-para
-para
-para
-para
-para
-para
-parcos
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 19438
 Numero de Movimentações:....... 43904
 
-respondeu
-respondeu
-respondeu
-respondeu
-resume
-ricas
-rival
-rival
-romance
-romance
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 42864
 Numero de Movimentações:....... 95808
 
-torvelinho
-total
-transpor
-tratar
-tratar
-tratasse
-tratasse
-traz
-trazia
-trazia
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 93715
 Numero de Movimentações:....... 207616
 
-uma
-uma
-uma
-uma
-uma
-uma
-uma
-uma
-uma
-uma
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 203384
 Numero de Movimentações:....... 447232
 
-ver
-ver
-ver
-ver
-ver
-ver
-ver
-ver
-ver
-ver
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 438605
 Numero de Movimentações:....... 958464
 
-vinte
-vinte
-vinte
-vinte
-vinte
-vinte
-vinte
-vinte
-vinte
-vinte
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 941171
 Numero de Movimentações:....... 2044928
 
-viu
-viu
-viu
-viu
-viu
-viu
-viuva
-viuva
-viuvo
-viva
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 2010300
 Numero de Movimentações:....... 4345856
 
-volupia
-voluvel
-voluvel
-volvia
-vontade
-vontade
-vontade
-vontade
-vontade
-vontade
 
 TESTE 11 - 256000 Palavras
 
 Numero de Comparacoes:..... 4276783
 Numero de Movimentações:....... 9203712
 
-voz
-voz
-voz
-voz
-voz
-voz
-voz
-voz
-voz
-voz
 
 real    0m0,166s
 user    0m0,162s

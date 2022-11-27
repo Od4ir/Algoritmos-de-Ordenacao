@@ -6,160 +6,60 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:..... 31125
 Numero de Movimentacoes:.......... 31374
 
-AA
-AAA
-AAAA
-AAAAAA
-AAAL
-AAAS
-AAE
-AAEE
-AAF
-AAG
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 124750
 Numero de Movimentacoes:.......... 125249
 
-AOS
-AOSS
-AOU
-AOW
-AP
-APA
-APB
-APC
-APDA
-APDU
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 499500
 Numero de Movimentacoes:.......... 500499
 
-Acmaeidae
-Acmispon
-Acmon
-Acnida
-Acoela
-Acoelomata
-Acoelomi
-Acoemetae
-Acoemeti
-Acoemetic
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 1999000
 Numero de Movimentacoes:.......... 2000999
 
-Albunea
-Albur
-Alburg
-Alburga
-Alburnett
-Alburtis
-Albury
-Alby
-Albyn
-Alca
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 7998000
 Numero de Movimentacoes:.......... 8001999
 
-Arabis
-Arabism
-Arabist
-Arabize
-Arabophil
-Araby
-Aracaj
-Aracaju
-Aracana
-Aracatuba
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 31996000
 Numero de Movimentacoes:.......... 32003999
 
-Billie
-Billiken
-Billings
-Billiton
-Billjim
-Billmyre
-Billows
-Billroth
-Bills
-Billy
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 127992000
 Numero de Movimentacoes:.......... 128007999
 
-DO
-DOA
-DOB
-DOC
-DOCS
-DOD
-DOE
-DOHC
-DOJ
-DOMAIN
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 511984000
 Numero de Movimentacoes:.......... 512015999
 
-Junkers
-Junko
-Junna
-Junno
-Juno
-Junoesque
-Junonia
-Junonian
-Junot
-Junr
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 2047968000
 Numero de Movimentacoes:.......... 2048031999
 
-afterharm
-afterhatch
-afterheat
-afterhelp
-afterhend
-afterhold
-afterhope
-afterhours
-afterimage
-afterings
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 8191936000
 Numero de Movimentacoes:.......... 8192063999
 
-extinctor
-extincts
-extine
-extinguish
-extipulate
-extirp
-extirpate
-extirpated
-extirpateo
-extirpates
 
 real    1m7,957s
 user    1m7,940s

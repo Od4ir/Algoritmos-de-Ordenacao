@@ -6,176 +6,65 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:..... 986
 Numero de Movimentações:....... 3988
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 2219
 Numero de Movimentações:....... 8976
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 4935
 Numero de Movimentações:....... 19952
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 10867
 Numero de Movimentações:....... 43904
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 23731
 Numero de Movimentações:....... 95808
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 51459
 Numero de Movimentações:....... 207616
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 110915
 Numero de Movimentações:....... 447232
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 237827
 Numero de Movimentações:....... 958464
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 507651
 Numero de Movimentações:....... 2044928
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 1079299
 Numero de Movimentações:....... 4345856
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
-
 TESTE 11 - 256000 Palavras
 
 Numero de Comparacoes:..... 2286595
 Numero de Movimentações:....... 9203712
 
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
-yoginis
-yogins
-yogis
 
 real    0m0,122s
 user    0m0,118s

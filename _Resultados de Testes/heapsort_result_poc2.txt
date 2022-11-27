@@ -6,176 +6,65 @@ TESTE 1 - 250 Palavras
 Numero de Comparacoes:............ 4080
 Numero de Movimentações:.......... 1915
 
-AAA
-AAAA
-AAAAAA
-AAAL
-AAAS
-AAE
-AAEE
-AAF
-AAG
-AAII
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:............ 9182
 Numero de Movimentações:.......... 4341
 
-AOSS
-AOU
-AOW
-AP
-APA
-APB
-APC
-APDA
-APDU
-APE
-
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:............ 20378
 Numero de Movimentações:.......... 9689
 
-Acmispon
-Acmon
-Acnida
-Acoela
-Acoelomata
-Acoelomi
-Acoemetae
-Acoemeti
-Acoemetic
-Acol
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:............ 44810
 Numero de Movimentações:.......... 21405
 
-Albur
-Alburg
-Alburga
-Alburnett
-Alburtis
-Albury
-Alby
-Albyn
-Alca
-Alcaaba
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:............ 97466
 Numero de Movimentações:.......... 46733
 
-Arabism
-Arabist
-Arabize
-Arabophil
-Araby
-Aracaj
-Aracaju
-Aracana
-Aracatuba
-Araceae
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:............ 212526
 Numero de Movimentações:.......... 102263
 
-Billiken
-Billings
-Billiton
-Billjim
-Billmyre
-Billows
-Billroth
-Bills
-Billy
-Billye
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:............ 458534
 Numero de Movimentações:.......... 221267
 
-DOA
-DOB
-DOC
-DOCS
-DOD
-DOE
-DOHC
-DOJ
-DOMAIN
-DOP
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:............ 977490
 Numero de Movimentações:.......... 472745
 
-Junko
-Junna
-Junno
-Juno
-Junoesque
-Junonia
-Junonian
-Junot
-Junr
-Junta
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:............ 2078086
 Numero de Movimentações:.......... 1007043
 
-afterhatch
-afterheat
-afterhelp
-afterhend
-afterhold
-afterhope
-afterhours
-afterimage
-afterings
-afterking
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:............ 4418610
 Numero de Movimentações:.......... 2145305
 
-extincts
-extine
-extinguish
-extipulate
-extirp
-extirpate
-extirpated
-extirpateo
-extirpates
-extirpator
 
 TESTE 11 - 256000 Palavras
 
 Numero de Comparacoes:............ 9354738
 Numero de Movimentações:.......... 4549369
 
-yogee
-yogeeism
-yogees
-yogh
-yoghourt
-yoghourts
-yoghs
-yoghurt
-yoghurts
-yogini
 
 real    0m0,187s
 user    0m0,186s
