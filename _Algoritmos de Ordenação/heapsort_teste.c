@@ -21,8 +21,8 @@ int main () {
     long int cont_cmp, cont_mov;
     elemento * v;
     FILE *f_teste, *f_new;
-    char file_teste[100] = "teste_p.txt";
-    char file_new[100] = "heapsort_result_par.txt";
+    char file_teste[100] = "teste_pod2.txt";
+    char file_new[100] = "heapsort_result_pod2.txt";
 
     f_new = fopen(file_new, "w");
     fprintf(f_new, "Testes com %s!\n",file_teste);
@@ -38,14 +38,15 @@ int main () {
             fscanf(f_teste, "%s", v[j].letras);
         }
         heapsort(v, (k * 250), &cont_cmp, &cont_mov);
+        printf("Teste %d ok!\n", i + 1);
         fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
         fprintf(f_new, "\nNumero de Comparacoes:............ %ld\n", cont_cmp);
         fprintf(f_new, "Numero de Movimentações:.......... %ld\n\n", cont_mov);
 
-        /*for(int j = (k - 1)*250; j < (k - 1)*250 + 100; j++) {
+        for(int j = (k - 1)*250 + 1; j < (k - 1)*250 + 11; j++) {
             fprintf(f_new, "%s\n", v[j].letras);
         }
-        fprintf(f_new, "\n"); */
+        fprintf(f_new, "\n"); 
 
         free(v);
         fclose(f_teste);

@@ -1,0 +1,183 @@
+Testes com teste_oc.txt!
+///-------- Ordenação com Mergesort --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:..... 1011
+Numero de Movimentações:....... 3988
+
+AA
+AAA
+AAAA
+AAAAAA
+AAAL
+AAAS
+AAE
+AAEE
+AAF
+AAG
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:..... 2272
+Numero de Movimentações:....... 8976
+
+AOS
+AOSS
+AOU
+AOW
+AP
+APA
+APB
+APC
+APDA
+APDU
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:..... 5044
+Numero de Movimentações:....... 19952
+
+Acmaeidae
+Acmispon
+Acmon
+Acnida
+Acoela
+Acoelomata
+Acoelomi
+Acoemetae
+Acoemeti
+Acoemetic
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:..... 11088
+Numero de Movimentações:....... 43904
+
+Albunea
+Albur
+Alburg
+Alburga
+Alburnett
+Alburtis
+Albury
+Alby
+Albyn
+Alca
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:..... 24176
+Numero de Movimentações:....... 95808
+
+Arabis
+Arabism
+Arabist
+Arabize
+Arabophil
+Araby
+Aracaj
+Aracaju
+Aracana
+Aracatuba
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:..... 52352
+Numero de Movimentações:....... 207616
+
+Billie
+Billiken
+Billings
+Billiton
+Billjim
+Billmyre
+Billows
+Billroth
+Bills
+Billy
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:..... 112704
+Numero de Movimentações:....... 447232
+
+DO
+DOA
+DOB
+DOC
+DOCS
+DOD
+DOE
+DOHC
+DOJ
+DOMAIN
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:..... 241408
+Numero de Movimentações:....... 958464
+
+Junkers
+Junko
+Junna
+Junno
+Juno
+Junoesque
+Junonia
+Junonian
+Junot
+Junr
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:..... 514816
+Numero de Movimentações:....... 2044928
+
+afterharm
+afterhatch
+afterheat
+afterhelp
+afterhend
+afterhold
+afterhope
+afterhours
+afterimage
+afterings
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:..... 1093632
+Numero de Movimentações:....... 4345856
+
+extinctor
+extincts
+extine
+extinguish
+extipulate
+extirp
+extirpate
+extirpated
+extirpateo
+extirpates
+
+TESTE 11 - 256000 Palavras
+
+Numero de Comparacoes:..... 2315264
+Numero de Movimentações:....... 9203712
+
+yogee
+yogeeism
+yogees
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+
+real    0m0,125s
+user    0m0,120s
+sys     0m0,005s
+

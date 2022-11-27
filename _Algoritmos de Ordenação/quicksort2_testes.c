@@ -26,15 +26,15 @@ int main() {
   long int cont_mov, cont_cmp;
   elemento * v;
   FILE *f_teste, *f_new;
-  char file_teste[100] = "teste_p.txt";
-  char file_new[100] = "quicksort1_result_parc.txt";
+  char file_teste[100] = "teste_pod2.txt";
+  char file_new[100] = "quicksort2_result_pod2.txt";
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
   fprintf(f_new, "///-------- Ordenacao com Quicksort - Versao 1 --------///\n\n");
 
   /* Lendo arquivo e executando os testes: */
-  for(i = 0; i <= 10; i++) {
+  for(i = 0; i < 10; i++) {
     cont_cmp = 0; cont_mov = 0;
     f_teste = fopen(file_teste, "r");
     v = malloc(sizeof(elemento) * (k * 250));
@@ -42,6 +42,7 @@ int main() {
         fscanf(f_teste, "%s", v[j].letras);
     }
     quicksort(v, 0, (k * 250) - 1, &cont_cmp, &cont_mov);
+    printf("Teste %d ok!\n", i + 1);
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
     fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
     fprintf(f_new, "Numero de Movimentacoes:.......... %ld\n\n", cont_mov);

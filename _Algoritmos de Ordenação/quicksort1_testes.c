@@ -17,24 +17,24 @@ typedef struct {
     char letras[11];
 } elemento;
 
-void troca (elemento *v, int i, int j, long int *mov);
-int particiona (elemento *v, int ini, int fim, long int *cmp, long int *mov);
-void quicksort (elemento *v, int ini, int fim, long int *cmp, long int *mov);
+void troca (elemento *v, int i, int j, unsigned long int *mov);
+int particiona (elemento *v, int ini, int fim, unsigned long int *cmp, unsigned long int *mov);
+void quicksort (elemento *v, int ini, int fim, unsigned long int *cmp, unsigned long int *mov);
 
 int main() {
   int i, j, k = 1;
-  long int cont_mov, cont_cmp;
+  unsigned long int cont_mov, cont_cmp;
   elemento * v;
   FILE *f_teste, *f_new;
-  char file_teste[100] = "teste_p.txt";
-  char file_new[100] = "quicksort1_result_parc.txt";
+  char file_teste[100] = "teste_pod2.txt";
+  char file_new[100] = "quicksort_result_pod2.txt";
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
   fprintf(f_new, "///-------- Ordenacao com Quicksort - Versao 1 --------///\n\n");
 
   /* Lendo arquivo e executando os testes: */
-  for(i = 0; i <= 10; i++) {
+  for(i = 0; i < 10; i++) {
     cont_cmp = 0; cont_mov = 0;
     f_teste = fopen(file_teste, "r");
     v = malloc(sizeof(elemento) * (k * 250));
@@ -42,6 +42,7 @@ int main() {
         fscanf(f_teste, "%s", v[j].letras);
     }
     quicksort(v, 0, (k * 250) - 1, &cont_cmp, &cont_mov);
+    printf("Teste %d ok! com %d!\n", (i + 1), (k * 250));
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
     fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
     fprintf(f_new, "Numero de Movimentacoes:.......... %ld\n\n", cont_mov);
@@ -49,7 +50,7 @@ int main() {
     for(int j = (k - 1)*250; j < (k - 1)*250 + 10; j++) {
         fprintf(f_new, "%s\n", v[j].letras);
     }
-    fprintf(f_new, "\n");
+    fprintf(f_new, "\n"); 
 
     free(v);
     fclose(f_teste);
@@ -59,7 +60,7 @@ int main() {
   return 0;
 }
 
-void troca (elemento *v, int i, int j, long int *mov){
+void troca (elemento *v, int i, int j, unsigned long int *mov){
   elemento aux;
   aux = v[j];
   v[j] = v[i];
@@ -67,7 +68,7 @@ void troca (elemento *v, int i, int j, long int *mov){
   *mov = *mov + 1;
 }
 
-int particiona (elemento *v, int ini, int fim, long int *cmp, long int *mov) {
+int particiona (elemento *v, int ini, int fim, unsigned long int *cmp, unsigned long int *mov) {
   int i, j;
   elemento pivo;
 
@@ -85,7 +86,7 @@ int particiona (elemento *v, int ini, int fim, long int *cmp, long int *mov) {
   return i;
 }
 
-void quicksort (elemento *v, int ini, int fim, long int *cmp, long int *mov) {
+void quicksort (elemento *v, int ini, int fim, unsigned long int *cmp, unsigned long int *mov) {
   int x;
   if (ini < fim){
     x = particiona(v, ini, fim, cmp, mov);

@@ -25,8 +25,8 @@ int i, j, k = 1;
   long int cont_cmp, cont_mov;
   elemento * v;
   FILE *f_teste, *f_new;
-  char file_teste[100] = "teste_a.txt";
-  char file_new[100] = "mergesort_result_aleat.txt";
+  char file_teste[100] = "teste_pod2.txt";
+  char file_new[100] = "mergesort_result_pod2.txt";
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
@@ -41,6 +41,7 @@ int i, j, k = 1;
         fscanf(f_teste, "%s", v[j].letras);
     }
     mergeSort(0, (k * 250) - 1, v, &cont_cmp, &cont_mov);
+    printf("Teste %d ok!\n", i + 1);
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
     fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
     fprintf(f_new, "Numero de Movimentações:....... %ld\n\n", cont_mov);

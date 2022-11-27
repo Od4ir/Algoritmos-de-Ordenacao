@@ -1,0 +1,167 @@
+Testes com teste_od.txt!
+///-------- Ordenacao com Quicksort - Versao 1 --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:..... 30969
+Numero de Movimentacoes:.......... 15666
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:..... 123844
+Numero de Movimentacoes:.......... 62291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:..... 497094
+Numero de Movimentacoes:.......... 249291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:..... 1993594
+Numero de Movimentacoes:.......... 998291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:..... 7986594
+Numero de Movimentacoes:.......... 3996291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:..... 31972594
+Numero de Movimentacoes:.......... 15992291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:..... 127944594
+Numero de Movimentacoes:.......... 63984291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:..... 511888594
+Numero de Movimentacoes:.......... 255968291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:..... 2047776594
+Numero de Movimentacoes:.......... 1023936291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:..... 8191552594
+Numero de Movimentacoes:.......... 4095872291
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+real    0m45,646s
+user    0m45,631s
+sys     0m0,008s
+

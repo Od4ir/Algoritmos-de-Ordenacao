@@ -1,0 +1,183 @@
+Testes com teste_od.txt!
+///-------- Ordenação com Heapsort --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:............ 3426
+Numero de Movimentações:.......... 1588
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:............ 7858
+Numero de Movimentações:.......... 3679
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:............ 17650
+Numero de Movimentações:.......... 8325
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:............ 39422
+Numero de Movimentações:.......... 18711
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:............ 86862
+Numero de Movimentações:.......... 41431
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:............ 189554
+Numero de Movimentações:.......... 90777
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:............ 411746
+Numero de Movimentações:.......... 197873
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:............ 889010
+Numero de Movimentações:.......... 428505
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:............ 1899074
+Numero de Movimentações:.......... 917537
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:............ 4055014
+Numero de Movimentações:.......... 1963507
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+TESTE 11 - 256000 Palavras
+
+Numero de Comparacoes:............ 8614354
+Numero de Movimentações:.......... 4179177
+
+yogh
+yoghourt
+yoghourts
+yoghs
+yoghurt
+yoghurts
+yogini
+yoginis
+yogins
+yogis
+
+real    0m0,213s
+user    0m0,208s
+sys     0m0,005s
+

@@ -1,0 +1,167 @@
+Testes com teste_poc2.txt!
+///-------- Ordenacao com Quicksort - Versao 1 --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:..... 249
+Numero de Movimentacoes:.......... 31125
+
+AAA
+AAAA
+AAAAAA
+AAAL
+AAAS
+AAE
+AAEE
+AAF
+AAG
+AAII
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:..... 499
+Numero de Movimentacoes:.......... 124750
+
+AOSS
+AOU
+AOW
+AP
+APA
+APB
+APC
+APDA
+APDU
+APE
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:..... 999
+Numero de Movimentacoes:.......... 499500
+
+Acmispon
+Acmon
+Acnida
+Acoela
+Acoelomata
+Acoelomi
+Acoemetae
+Acoemeti
+Acoemetic
+Acol
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:..... 1999
+Numero de Movimentacoes:.......... 1999000
+
+Albur
+Alburg
+Alburga
+Alburnett
+Alburtis
+Albury
+Alby
+Albyn
+Alca
+Alcaaba
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:..... 3999
+Numero de Movimentacoes:.......... 7998000
+
+Arabism
+Arabist
+Arabize
+Arabophil
+Araby
+Aracaj
+Aracaju
+Aracana
+Aracatuba
+Araceae
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:..... 7999
+Numero de Movimentacoes:.......... 31996000
+
+Billiken
+Billings
+Billiton
+Billjim
+Billmyre
+Billows
+Billroth
+Bills
+Billy
+Billye
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:..... 15999
+Numero de Movimentacoes:.......... 127992000
+
+DOA
+DOB
+DOC
+DOCS
+DOD
+DOE
+DOHC
+DOJ
+DOMAIN
+DOP
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:..... 31999
+Numero de Movimentacoes:.......... 511984000
+
+Junko
+Junna
+Junno
+Juno
+Junoesque
+Junonia
+Junonian
+Junot
+Junr
+Junta
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:..... 63999
+Numero de Movimentacoes:.......... 2047968000
+
+afterhatch
+afterheat
+afterhelp
+afterhend
+afterhold
+afterhope
+afterhours
+afterimage
+afterings
+afterking
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:..... 127999
+Numero de Movimentacoes:.......... 8191936000
+
+extincts
+extine
+extinguish
+extipulate
+extirp
+extirpate
+extirpated
+extirpateo
+extirpates
+extirpator
+
+real    0m24,739s
+user    0m24,716s
+sys     0m0,021s
+
