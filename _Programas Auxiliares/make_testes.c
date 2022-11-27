@@ -1,13 +1,8 @@
 /*--------------------------------------------------
-PROGRAMA PARA FABRICAR ARQUIVOS DE TESTE
-NO FORMATO .txt
-
-O programa recebe um inteiro n e abre um dos seguin-
-tes arquivos:
-- words_ordenadas.txt;
-- words_aleatorias.txt;
-E devolve um arquivo nomeado pelo usuário com n pa-
-lavras selecionadas a partir do arquivo escolhido. 
+Programa utilizado para fabricar os vetores de teste
+a partir, principalmente, dos arquivos:
+    words_aleatorias.txt
+    words_ordenadas.txt
 ----------------------------------------------------*/
 
 #include <stdio.h>

@@ -1,3 +1,8 @@
+/* ---------------------------------------------------------------
+Este programa lê algum dos vetores de teste com 256 mil palavras e
+inverte a ordem da lista.
+------------------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
