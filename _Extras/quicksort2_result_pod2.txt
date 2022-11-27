@@ -1,0 +1,67 @@
+Testes com teste_pod2.txt!
+///-------- Ordenacao com Quicksort - Versao 1 --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:..... 249
+Numero de Movimentacoes:.......... 30801
+
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:..... 499
+Numero de Movimentacoes:.......... 122926
+
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:..... 999
+Numero de Movimentacoes:.......... 494676
+
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:..... 1999
+Numero de Movimentacoes:.......... 1988176
+
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:..... 3999
+Numero de Movimentacoes:.......... 7975176
+
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:..... 7999
+Numero de Movimentacoes:.......... 31949176
+
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:..... 15999
+Numero de Movimentacoes:.......... 127897176
+
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:..... 31999
+Numero de Movimentacoes:.......... 511793176
+
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:..... 63999
+Numero de Movimentacoes:.......... 2047585176
+
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:..... 127999
+Numero de Movimentacoes:.......... 8191169176
+
+
+real    0m25,222s
+user    0m25,217s
+sys     0m0,004s
+

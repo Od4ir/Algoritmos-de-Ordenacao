@@ -1,0 +1,74 @@
+Testes com teste_poc2.txt! OK
+
+///-------- Ordenacao com Insertion_Sort --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:..... 498
+Numero de Movimentacoes:.... 498
+
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:..... 998
+Numero de Movimentacoes:.... 998
+
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:..... 1998
+Numero de Movimentacoes:.... 1998
+
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:..... 3998
+Numero de Movimentacoes:.... 3998
+
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:..... 7998
+Numero de Movimentacoes:.... 7998
+
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:..... 15998
+Numero de Movimentacoes:.... 15998
+
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:..... 31998
+Numero de Movimentacoes:.... 31998
+
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:..... 63998
+Numero de Movimentacoes:.... 63998
+
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:..... 127998
+Numero de Movimentacoes:.... 127998
+
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:..... 255998
+Numero de Movimentacoes:.... 255998
+
+
+TESTE 11 - 256000 Palavras
+
+Numero de Comparacoes:..... 767996
+Numero de Movimentacoes:.... 767996
+
+
+real    0m0,079s
+user    0m0,075s
+sys     0m0,005s
+
