@@ -25,12 +25,12 @@ int i, j, k = 1;
   long int cont_cmp, cont_mov;
   elemento * v;
   FILE *f_teste, *f_new;
-  char file_teste[100] = "teste_pod2.txt";
-  char file_new[100] = "mergesort_result_pod2.txt";
+  char file_teste[100] = "teste_a.txt";
+  char file_new[100] = "mergesort_result_a.txt";
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
-  fprintf(f_new, "///-------- Ordenação com Mergesort --------///\n\n");
+  fprintf(f_new, "///-------- Ordenacao com Mergesort --------///\n\n");
 
   /* Lendo arquivo e executando os testes: */
   for(i = 0; i <= 10; i++) {
@@ -44,12 +44,12 @@ int i, j, k = 1;
     printf("Teste %d ok!\n", i + 1);
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
     fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
-    fprintf(f_new, "Numero de Movimentações:....... %ld\n\n", cont_mov);
+    fprintf(f_new, "Numero de Movimentacoes:....... %ld\n\n", cont_mov);
 
-    for(int j = (k - 1)*250; j < (k - 1)*250 + 10; j++) {
+    /*for(int j = (k - 1)*250; j < (k - 1)*250 + 10; j++) {
         fprintf(f_new, "%s\n", v[j].letras);
     }
-    fprintf(f_new, "\n"); 
+    fprintf(f_new, "\n"); */
 
     free(v);
     fclose(f_teste);
@@ -72,12 +72,10 @@ void intercala (int p, int q, int r, elemento *v, long int *cmp, long int *mov) 
 
   for (i = 0; i < n1; i++) { 
     A[i] = v[p+i];
-    *mov = *mov + 1;
   }
 
   for (i = 0; i < n2; i++) { 
     B[i] = v[q+1 + i];
-    *mov = *mov + 1;
   }
 
   i = 0, j = 0;

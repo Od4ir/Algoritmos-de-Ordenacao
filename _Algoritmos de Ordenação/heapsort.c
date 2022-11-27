@@ -23,7 +23,7 @@ int main () {
     long int cont_cmp = 0, cont_mov = 0;
     elemento * v;
 
-    printf("\n///----------- Ordenação com Heapsort -----------///\n\n");
+    printf("\n///----------- Ordenacao com Heapsort -----------///\n\n");
 
     printf(">>> Digite o numero de elementos: ");
     scanf("%d",&n);
@@ -45,7 +45,7 @@ void heapsort(elemento *v, int n, long int *cmp, long int *mov) {
     ConstroiHeap(v, n, cmp, mov);
     for(int i = n; i > 1; i--) {
         *mov = *mov + 1;
-        troca(v, 1, i);  //(&v[1], &v[i]);
+        troca(v, 1, i); 
         CorrigeHeapDescendo(v, i - 1, 1, cmp, mov);
     }
 }
@@ -59,5 +59,5 @@ void printando(elemento *v, int n, long int cmp, long int mov) {
         printf("%s\n", v[i].letras);
     }
     printf("\nNumero de Comparacoes:..... %ld\n", cmp);
-    printf("Numero de Movimentações:.... %ld\n\n", mov);
+    printf("Numero de Movimentacoes:.... %ld\n\n", mov);
 }  

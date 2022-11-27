@@ -26,7 +26,7 @@ int main() {
   long int cont_cmp = 0, cont_mov = 0;
   elemento * v;
 
-  printf("\n///-------- Ordenação com Insertion_Sort --------///\n\n");
+  printf("\n///-------- Ordenacao com Insertion_Sort --------///\n\n");
 
   printf(">>> Digite o numero de elementos: ");
   scanf("%d",&n);
@@ -72,5 +72,5 @@ void printando(elemento *v, int n, long int cmp, long int mov) {
         printf("%s\n", v[i].letras);
     }
     printf("\nNumero de Comparacoes:..... %ld\n", cmp);
-    printf("Numero de Movimentações:.... %ld\n\n", mov);
+    printf("Numero de Movimentacoes:.... %ld\n\n", mov);
 }   

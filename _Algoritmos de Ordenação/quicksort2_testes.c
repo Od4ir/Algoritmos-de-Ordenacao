@@ -26,15 +26,24 @@ int main() {
   long int cont_mov, cont_cmp;
   elemento * v;
   FILE *f_teste, *f_new;
-  char file_teste[100] = "teste_pod2.txt";
-  char file_new[100] = "quicksort2_result_pod2.txt";
+  char file_teste[100] = "teste_a.txt";
+  char file_new[100] = "quicksort2_result_a.txt";
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
   fprintf(f_new, "///-------- Ordenacao com Quicksort - Versao 1 --------///\n\n");
 
+  /*Se o teste for feito com algum dos seguintes arquivos:
+
+    "teste_oc.txt";
+    "teste_poc.txt";
+    "teste_od.txt";
+    "teste_pod.txt";
+
+  Altere a iteração do for abaixo de "i <= 10" para "i < 10"; */
+
   /* Lendo arquivo e executando os testes: */
-  for(i = 0; i < 10; i++) {
+  for(i = 0; i <= 10; i++) {
     cont_cmp = 0; cont_mov = 0;
     f_teste = fopen(file_teste, "r");
     v = malloc(sizeof(elemento) * (k * 250));

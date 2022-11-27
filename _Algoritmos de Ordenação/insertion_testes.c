@@ -24,12 +24,12 @@ int main() {
   long int cont_cmp, cont_mov;
   elemento * v;
   FILE *f_teste, *f_new;
-  char file_teste[100] = "teste_pod2.txt";
-  char file_new[100] = "insertion_result_pod2.txt";
+  char file_teste[100] = "teste_a.txt";
+  char file_new[100] = "insertion_result_a.txt";
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
-  fprintf(f_new, "///-------- Ordenação com Insertion_Sort --------///\n\n");
+  fprintf(f_new, "///-------- Ordenacao com Insertion_Sort --------///\n\n");
 
   /* Lendo arquivo e executando os testes: */
   for(i = 0; i <= 10; i++) {
@@ -45,7 +45,7 @@ int main() {
     printf("Teste %d ok!\n", i + 1);
     fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
     fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
-    fprintf(f_new, "Numero de Movimentações:.... %ld\n\n", cont_mov);
+    fprintf(f_new, "Numero de Movimentacoes:.... %ld\n\n", cont_mov);
 
     for(int j = (k - 1)*250; j < (k - 1)*250 + 10; j++) {
         fprintf(f_new, "%s\n", v[j].letras);

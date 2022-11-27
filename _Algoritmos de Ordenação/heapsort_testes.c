@@ -21,12 +21,12 @@ int main () {
     long int cont_cmp, cont_mov;
     elemento * v;
     FILE *f_teste, *f_new;
-    char file_teste[100] = "teste_pod2.txt";
-    char file_new[100] = "heapsort_result_pod2.txt";
+    char file_teste[100] = "teste_a.txt";
+    char file_new[100] = "heapsort_result_a.txt";
 
     f_new = fopen(file_new, "w");
     fprintf(f_new, "Testes com %s!\n",file_teste);
-    fprintf(f_new, "///-------- Ordenação com Heapsort --------///\n\n");
+    fprintf(f_new, "///-------- Ordenacao com Heapsort --------///\n\n");
 
     /* Lendo arquivo e executando os testes: */
     for(i = 0; i <= 10; i++) {
@@ -41,7 +41,7 @@ int main () {
         printf("Teste %d ok!\n", i + 1);
         fprintf(f_new, "TESTE %d - %d Palavras\n", (i + 1), (k * 250));
         fprintf(f_new, "\nNumero de Comparacoes:............ %ld\n", cont_cmp);
-        fprintf(f_new, "Numero de Movimentações:.......... %ld\n\n", cont_mov);
+        fprintf(f_new, "Numero de Movimentacoes:.......... %ld\n\n", cont_mov);
 
         for(int j = (k - 1)*250 + 1; j < (k - 1)*250 + 11; j++) {
             fprintf(f_new, "%s\n", v[j].letras);
@@ -60,7 +60,7 @@ void heapsort(elemento *v, int n, long int *cmp, long int *mov) {
     ConstroiHeap(v, n, cmp, mov);
     for(int i = n; i > 1; i--) {
         *mov = *mov + 1;
-        troca(v, 1, i);  //(&v[1], &v[i]);
+        troca(v, 1, i); 
         CorrigeHeapDescendo(v, i - 1, 1, cmp, mov);
     }
 }

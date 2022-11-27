@@ -26,7 +26,7 @@ int main() {
   int i, n, cont_cmp = 0, cont_mov = 0;
   elemento *v;
 
-  printf("\n///-------- Ordenação com Mergesort --------///\n\n");
+  printf("\n///-------- Ordenacao com Mergesort --------///\n\n");
 
   printf(">>> Digite o numero de elementos: ");
   scanf("%d",&n);
@@ -112,5 +112,5 @@ void printando(elemento *v, int n, int cmp, int mov) {
         printf("%s\n", v[i].letras);
     }
     printf("\nNumero de Comparacoes:..... %d\n", cmp);
-    printf("Numero de Movimentações:....%d", mov);
+    printf("Numero de Movimentacoes:....%d", mov);
 }   

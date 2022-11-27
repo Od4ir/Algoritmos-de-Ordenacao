@@ -27,7 +27,7 @@ int main() {
   int i, n, cont_mov = 0, cont_cmp = 0;
   elemento * v;
 
-  printf("\n///-------- Ordenação com Quicksort - Versao 1 --------///\n\n");
+  printf("\n///-------- Ordenacao com Quicksort - Versao 1 --------///\n\n");
 
   printf(">>> Digite o numero de elementos: ");
   scanf("%d",&n);
@@ -96,6 +96,6 @@ void printando(elemento *v, int n, int mov, int cmp) {
         printf("%s\n", v[i].letras);
     }
     printf("\nNumero de Comparacoes:........ %d\n", cmp);
-    printf("Numero de Movimentações:...... %d\n\n", mov);
+    printf("Numero de Movimentacoes:...... %d\n\n", mov);
 
 }   
