@@ -1,4 +1,5 @@
-Testes com teste_oc.txt!
+Testes com teste_oc.txt! OK
+
 ///-------- Ordenacao com Quicksort - Versao 1 --------///
 
 TESTE 1 - 250 Palavras

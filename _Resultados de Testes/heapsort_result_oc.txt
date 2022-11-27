@@ -1,70 +1,70 @@
 Testes com teste_oc.txt! OK
 
-///-------- Ordenação com Heapsort --------///
+///-------- Ordenacao com Heapsort --------///
 
 TESTE 1 - 250 Palavras
 
 Numero de Comparacoes:............ 4106
-Numero de Movimentações:.......... 1928
+Numero de Movimentacoes:.......... 1928
 
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:............ 9208
-Numero de Movimentações:.......... 4354
+Numero de Movimentacoes:.......... 4354
 
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:............ 20416
-Numero de Movimentações:.......... 9708
+Numero de Movimentacoes:.......... 9708
 
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:............ 44600
-Numero de Movimentações:.......... 21300
+Numero de Movimentacoes:.......... 21300
 
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:............ 98284
-Numero de Movimentações:.......... 47142
+Numero de Movimentacoes:.......... 47142
 
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:............ 213276
-Numero de Movimentações:.......... 102638
+Numero de Movimentacoes:.......... 102638
 
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:............ 456760
-Numero de Movimentações:.......... 220380
+Numero de Movimentacoes:.......... 220380
 
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:............ 975048
-Numero de Movimentações:.......... 471524
+Numero de Movimentacoes:.......... 471524
 
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:............ 2081336
-Numero de Movimentações:.......... 1008668
+Numero de Movimentacoes:.......... 1008668
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:............ 4431212
-Numero de Movimentações:.......... 2151606
+Numero de Movimentacoes:.......... 2151606
 
 
 TESTE 11 - 256000 Palavras
 
 Numero de Comparacoes:............ 9354756
-Numero de Movimentações:.......... 4549378
+Numero de Movimentacoes:.......... 4549378
 
 
 real    0m0,222s

@@ -1,73 +1,61 @@
-Testes com teste_poc2.txt!
-///-------- Ordenação com Mergesort --------///
+Testes com teste_poc.txt!
+///-------- Ordenacao com Mergesort --------///
 
 TESTE 1 - 250 Palavras
 
 Numero de Comparacoes:..... 1252
-Numero de Movimentações:....... 3988
-
+Numero de Movimentacoes:....... 1994
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 2762
-Numero de Movimentações:....... 8976
-
+Numero de Movimentacoes:....... 4488
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 6033
-Numero de Movimentações:....... 19952
-
+Numero de Movimentacoes:....... 9976
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 13076
-Numero de Movimentações:....... 43904
-
+Numero de Movimentacoes:....... 21952
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 28163
-Numero de Movimentações:....... 95808
-
+Numero de Movimentacoes:....... 47904
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 60338
-Numero de Movimentações:....... 207616
-
+Numero de Movimentacoes:....... 103808
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 128689
-Numero de Movimentações:....... 447232
-
+Numero de Movimentacoes:....... 223616
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 273392
-Numero de Movimentações:....... 958464
-
+Numero de Movimentacoes:....... 479232
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 578799
-Numero de Movimentações:....... 2044928
-
+Numero de Movimentacoes:....... 1022464
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 1221614
-Numero de Movimentações:....... 4345856
-
+Numero de Movimentacoes:....... 2172928
 
 TESTE 11 - 256000 Palavras
 
-Numero de Comparacoes:..... 2571259
-Numero de Movimentações:....... 9203712
+Numero de Comparacoes:..... 2571245
+Numero de Movimentacoes:....... 4601856
 
-
-real    0m0,122s
-user    0m0,122s
-sys     0m0,000s
-
+real    0m0,120s
+user    0m0,115s
+sys     0m0,005s

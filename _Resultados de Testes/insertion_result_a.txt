@@ -1,70 +1,71 @@
-Testes com teste_a.txt!
-///-------- Ordenação com Insertion_Sort --------///
+Testes com teste_a.txt! OK
+
+///-------- Ordenacao com Insertion_Sort --------///
 
 TESTE 1 - 250 Palavras
 
 Numero de Comparacoes:..... 13880
-Numero de Movimentações:.... 13880
+Numero de Movimentacoes:.... 13880
 
 
 TESTE 2 - 500 Palavras
 
 Numero de Comparacoes:..... 57614
-Numero de Movimentações:.... 57614
+Numero de Movimentacoes:.... 57614
 
 
 TESTE 3 - 1000 Palavras
 
 Numero de Comparacoes:..... 236540
-Numero de Movimentações:.... 236540
+Numero de Movimentacoes:.... 236540
 
 
 TESTE 4 - 2000 Palavras
 
 Numero de Comparacoes:..... 976918
-Numero de Movimentações:.... 976918
+Numero de Movimentacoes:.... 976918
 
 
 TESTE 5 - 4000 Palavras
 
 Numero de Comparacoes:..... 3934837
-Numero de Movimentações:.... 3934837
+Numero de Movimentacoes:.... 3934837
 
 
 TESTE 6 - 8000 Palavras
 
 Numero de Comparacoes:..... 15731063
-Numero de Movimentações:.... 15731063
+Numero de Movimentacoes:.... 15731063
 
 
 TESTE 7 - 16000 Palavras
 
 Numero de Comparacoes:..... 62655235
-Numero de Movimentações:.... 62655235
+Numero de Movimentacoes:.... 62655235
 
 
 TESTE 8 - 32000 Palavras
 
 Numero de Comparacoes:..... 253981933
-Numero de Movimentações:.... 253981933
+Numero de Movimentacoes:.... 253981933
 
 
 TESTE 9 - 64000 Palavras
 
 Numero de Comparacoes:..... 1006967537
-Numero de Movimentações:.... 1006967537
+Numero de Movimentacoes:.... 1006967537
 
 
 TESTE 10 - 128000 Palavras
 
 Numero de Comparacoes:..... 4013119171
-Numero de Movimentações:.... 4013119171
+Numero de Movimentacoes:.... 4013119171
 
 
 TESTE 11 - 256000 Palavras
 
 Numero de Comparacoes:..... 16099135395
-Numero de Movimentações:.... 16099135395
+Numero de Movimentacoes:.... 16099135395
 
 real    2m58,164s
 user    2m58,202s
