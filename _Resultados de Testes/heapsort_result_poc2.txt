@@ -1,4 +1,5 @@
-Testes com teste_poc2.txt!
+Testes com teste_poc2.txt! ok
+
 ///-------- Ordenação com Heapsort --------///
 
 TESTE 1 - 250 Palavras

@@ -1,4 +1,5 @@
-Testes com teste_od.txt!
+Testes com teste_od.txt! OK
+
 ///-------- Ordenação com Heapsort --------///
 
 TESTE 1 - 250 Palavras
