@@ -1,73 +1,71 @@
-Testes com teste_a.txt! OK
-
-///-------- Ordenacao com Quicksort - Versao 1 --------///
+Testes com teste_a.txt!
+///-------- Ordenacao com Quicksort - Versao 2 --------///
 
 TESTE 1 - 250 Palavras
 
-Numero de Comparacoes:..... 500
-Numero de Movimentacoes:.......... 1470
+Numero de Comparacoes:..... 2441
+Numero de Movimentacoes:.......... 500
 
 
 TESTE 2 - 500 Palavras
 
-Numero de Comparacoes:..... 1142
-Numero de Movimentacoes:.......... 3406
+Numero de Comparacoes:..... 5644
+Numero de Movimentacoes:.......... 1142
 
 
 TESTE 3 - 1000 Palavras
 
-Numero de Comparacoes:..... 2709
-Numero de Movimentacoes:.......... 6022
+Numero de Comparacoes:..... 11351
+Numero de Movimentacoes:.......... 2709
 
 
 TESTE 4 - 2000 Palavras
 
-Numero de Comparacoes:..... 6082
-Numero de Movimentacoes:.......... 14268
+Numero de Comparacoes:..... 26285
+Numero de Movimentacoes:.......... 6082
 
 
 TESTE 5 - 4000 Palavras
 
-Numero de Comparacoes:..... 13744
-Numero de Movimentacoes:.......... 27627
+Numero de Comparacoes:..... 54870
+Numero de Movimentacoes:.......... 13744
 
 
 TESTE 6 - 8000 Palavras
 
-Numero de Comparacoes:..... 30602
-Numero de Movimentacoes:.......... 64622
+Numero de Comparacoes:..... 125387
+Numero de Movimentacoes:.......... 30602
 
 
 TESTE 7 - 16000 Palavras
 
-Numero de Comparacoes:..... 67779
-Numero de Movimentacoes:.......... 119890
+Numero de Comparacoes:..... 254821
+Numero de Movimentacoes:.......... 67779
 
 
 TESTE 8 - 32000 Palavras
 
-Numero de Comparacoes:..... 149173
-Numero de Movimentacoes:.......... 236279
+Numero de Comparacoes:..... 533646
+Numero de Movimentacoes:.......... 149173
 
 
 TESTE 9 - 64000 Palavras
 
-Numero de Comparacoes:..... 325436
-Numero de Movimentacoes:.......... 561047
+Numero de Comparacoes:..... 1210242
+Numero de Movimentacoes:.......... 325436
 
 
 TESTE 10 - 128000 Palavras
 
-Numero de Comparacoes:..... 706969
-Numero de Movimentacoes:.......... 1061645
+Numero de Comparacoes:..... 2473091
+Numero de Movimentacoes:.......... 706969
 
 
 TESTE 11 - 256000 Palavras
 
-Numero de Comparacoes:..... 1525566
-Numero de Movimentacoes:.......... 2205885
+Numero de Comparacoes:..... 5253209
+Numero de Movimentacoes:.......... 1525566
 
-real    0m0,147s
-user    0m0,134s
-sys     0m0,009s
-
+real    0m0,210s
+user    0m0,210s
+sys     0m0,000s

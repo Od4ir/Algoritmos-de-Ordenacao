@@ -19,15 +19,15 @@ typedef struct {
 } elemento;
 
 void troca (elemento *v, int i, int j, int *mov);
-int particiona (elemento *v, int ini, int fim, int *mov, int *cmp);
-void quicksort (elemento *v, int ini, int fim, int *mov, int *cmp);
-void printando(elemento *v, int n, int mov, int cmp);
+int particiona (elemento *v, int ini, int fim, int *cmp, int *mov);
+void quicksort (elemento *v, int ini, int fim, int *cmp, int *mov);
+void printando(elemento *v, int n, int cmp, int mov);
 
 int main() {
-  int i, n, cont_mov = 0, cont_cmp = 0;
+  int i, n, cont_cmp = 0, cont_mov = 0;
   elemento * v;
 
-  printf("\n///-------- Ordenacao com Quicksort - Versao 1 --------///\n\n");
+  printf("\n///-------- Ordenacao com Quicksort - Versao 2 --------///\n\n");
 
   printf(">>> Digite o numero de elementos: ");
   scanf("%d",&n);
@@ -37,8 +37,8 @@ int main() {
   for (i = 0; i < n; i++) { 
         scanf("%s", v[i].letras);
   }
-  quicksort(v, 0, n - 1, &cont_mov, &cont_cmp);
-  printando(v, n, cont_mov, cont_cmp);
+  quicksort(v, 0, n - 1, &cont_cmp, &cont_mov);
+  printando(v, n, cont_cmp, cont_mov);
 
   free(v);
   return 0;
@@ -52,7 +52,7 @@ void troca (elemento *v, int i, int j, int *mov){
   *mov = *mov + 1;
 }
 
-int particiona (elemento *v, int ini, int fim, int *mov, int *cmp) {
+int particiona (elemento *v, int ini, int fim, int *cmp, int *mov) {
   int i, j;
   elemento pivo;
 
@@ -61,13 +61,15 @@ int particiona (elemento *v, int ini, int fim, int *mov, int *cmp) {
   pivo = v[ini];
 
   while(1) {
-    while(strcmp(v[++i].letras, pivo.letras) < 0) { 
-        *cmp = *cmp + 1;      
+    *cmp = *cmp + 1;
+    while(strcmp(v[++i].letras, pivo.letras) < 0) {  
         if(i == fim) break;
-    }
-    while(strcmp(v[--j].letras, pivo.letras) > 0) {   
         *cmp = *cmp + 1;
+    }
+    *cmp = *cmp + 1;
+    while(strcmp(v[--j].letras, pivo.letras) > 0) {   
         if(j == ini) break;
+        *cmp = *cmp + 1;     
     }
     
     if(i >= j) 
@@ -78,16 +80,16 @@ int particiona (elemento *v, int ini, int fim, int *mov, int *cmp) {
   return j;
 }
 
-void quicksort (elemento *v, int ini, int fim, int *mov, int *cmp) {
+void quicksort (elemento *v, int ini, int fim, int *cmp, int *mov) {
   int x;
   if (ini < fim){
-    x = particiona(v, ini, fim, mov, cmp);
-    quicksort(v, ini, x - 1, mov, cmp);
-    quicksort(v, x + 1, fim, mov, cmp);
+    x = particiona(v, ini, fim, cmp, mov);
+    quicksort(v, ini, x - 1, cmp, mov);
+    quicksort(v, x + 1, fim, cmp, mov);
   }
 }
 
-void printando(elemento *v, int n, int mov, int cmp) {
+void printando(elemento *v, int n, int cmp, int mov) {
     int i;
 
     printf("\n>>> Lista ordenada: \n");

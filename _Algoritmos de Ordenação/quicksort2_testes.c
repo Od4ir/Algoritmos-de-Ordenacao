@@ -23,7 +23,7 @@ void quicksort (elemento *v, int ini, int fim, long int *cmp, long int *mov);
 
 int main() {
   int i, j, k = 1;
-  long int cont_mov, cont_cmp;
+  long int cont_cmp, cont_mov;
   elemento * v;
   FILE *f_teste, *f_new;
   char file_teste[100] = "teste_a.txt";
@@ -31,7 +31,7 @@ int main() {
 
   f_new = fopen(file_new, "w");
   fprintf(f_new, "Testes com %s!\n",file_teste);
-  fprintf(f_new, "///-------- Ordenacao com Quicksort - Versao 1 --------///\n\n");
+  fprintf(f_new, "///-------- Ordenacao com Quicksort - Versao 2 --------///\n\n");
 
   /*Se o teste for feito com algum dos seguintes arquivos:
 
@@ -43,7 +43,7 @@ int main() {
   Altere a iteração do for abaixo de "i <= 10" para "i < 10"; */
 
   /* Lendo arquivo e executando os testes: */
-  for(i = 0; i <= 10; i++) {
+  for(i = 0; i < 10; i++) {
     cont_cmp = 0; cont_mov = 0;
     f_teste = fopen(file_teste, "r");
     v = malloc(sizeof(elemento) * (k * 250));
@@ -56,9 +56,9 @@ int main() {
     fprintf(f_new, "\nNumero de Comparacoes:..... %ld\n", cont_cmp);
     fprintf(f_new, "Numero de Movimentacoes:.......... %ld\n\n", cont_mov);
 
-    for(int j = (k - 1)*250; j < (k - 1)*250 + 10; j++) {
+    /*for(int j = (k - 1)*250; j < (k - 1)*250 + 10; j++) {
         fprintf(f_new, "%s\n", v[j].letras);
-    }
+    } */
     fprintf(f_new, "\n");
 
     free(v);
@@ -77,7 +77,7 @@ void troca (elemento *v, int i, int j, long int *mov){
   *mov = *mov + 1;
 }
 
-int particiona (elemento *v, int ini, int fim, long int *mov, long int *cmp) {
+int particiona (elemento *v, int ini, int fim, long int *cmp, long int *mov) {
   int i, j;
   elemento pivo;
 
@@ -86,13 +86,15 @@ int particiona (elemento *v, int ini, int fim, long int *mov, long int *cmp) {
   pivo = v[ini];
 
   while(1) {
-    while(strcmp(v[++i].letras, pivo.letras) < 0) { 
-        *cmp = *cmp + 1;      
+    *cmp = *cmp + 1;
+    while(strcmp(v[++i].letras, pivo.letras) < 0) {     
         if(i == fim) break;
+        *cmp = *cmp + 1;  
     }
+    *cmp = *cmp + 1;
     while(strcmp(v[--j].letras, pivo.letras) > 0) {   
-        *cmp = *cmp + 1;
         if(j == ini) break;
+        *cmp = *cmp + 1;
     }
     
     if(i >= j) 

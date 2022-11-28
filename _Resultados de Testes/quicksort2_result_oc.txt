@@ -1,68 +1,65 @@
-Testes com teste_oc.txt! OK
-
-///-------- Ordenacao com Quicksort - Versao 1 --------///
+Testes com teste_oc.txt!
+///-------- Ordenacao com Quicksort - Versao 2 --------///
 
 TESTE 1 - 250 Palavras
 
-Numero de Comparacoes:..... 249
-Numero de Movimentacoes:.......... 31125
+Numero de Comparacoes:..... 31623
+Numero de Movimentacoes:.......... 249
 
 
 TESTE 2 - 500 Palavras
 
-Numero de Comparacoes:..... 499
-Numero de Movimentacoes:.......... 124750
+Numero de Comparacoes:..... 125748
+Numero de Movimentacoes:.......... 499
 
 
 TESTE 3 - 1000 Palavras
 
-Numero de Comparacoes:..... 999
-Numero de Movimentacoes:.......... 499500
+Numero de Comparacoes:..... 501498
+Numero de Movimentacoes:.......... 999
 
 
 TESTE 4 - 2000 Palavras
 
-Numero de Comparacoes:..... 1999
-Numero de Movimentacoes:.......... 1999000
+Numero de Comparacoes:..... 2002998
+Numero de Movimentacoes:.......... 1999
 
 
 TESTE 5 - 4000 Palavras
 
-Numero de Comparacoes:..... 3999
-Numero de Movimentacoes:.......... 7998000
+Numero de Comparacoes:..... 8005998
+Numero de Movimentacoes:.......... 3999
 
 
 TESTE 6 - 8000 Palavras
 
-Numero de Comparacoes:..... 7999
-Numero de Movimentacoes:.......... 31996000
+Numero de Comparacoes:..... 32011998
+Numero de Movimentacoes:.......... 7999
 
 
 TESTE 7 - 16000 Palavras
 
-Numero de Comparacoes:..... 15999
-Numero de Movimentacoes:.......... 127992000
+Numero de Comparacoes:..... 128023998
+Numero de Movimentacoes:.......... 15999
 
 
 TESTE 8 - 32000 Palavras
 
-Numero de Comparacoes:..... 31999
-Numero de Movimentacoes:.......... 511984000
+Numero de Comparacoes:..... 512047998
+Numero de Movimentacoes:.......... 31999
 
 
 TESTE 9 - 64000 Palavras
 
-Numero de Comparacoes:..... 63999
-Numero de Movimentacoes:.......... 2047968000
+Numero de Comparacoes:..... 2048095998
+Numero de Movimentacoes:.......... 63999
 
 
 TESTE 10 - 128000 Palavras
 
-Numero de Comparacoes:..... 127999
-Numero de Movimentacoes:.......... 8191936000
+Numero de Comparacoes:..... 8192191998
+Numero de Movimentacoes:.......... 127999
 
-
-real    0m25,173s
-user    0m25,149s
-sys     0m0,020s
-
+real    0m51,036s
+user    0m51,029s
+sys     0m0,004s

@@ -23,7 +23,7 @@ void quicksort (elemento *v, int ini, int fim, unsigned long int *cmp, unsigned 
 
 int main() {
   int i, j, k = 1024;
-  unsigned long int cont_mov, cont_cmp;
+  unsigned long int cont_cmp, cont_mov;
   elemento * v;
   FILE *f_teste, *f_new;
   char file_teste[100] = "teste_a.txt";
