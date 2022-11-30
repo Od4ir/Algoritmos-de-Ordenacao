@@ -1,0 +1,74 @@
+Testes com teste_pod.txt! OK
+
+///-------- Ordenacao com Insertion_Sort --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:..... 31119
+Numero de Movimentacoes:.... 31119
+
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:..... 124744
+Numero de Movimentacoes:.... 124744
+
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:..... 499494
+Numero de Movimentacoes:.... 499494
+
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:..... 1998994
+Numero de Movimentacoes:.... 1998994
+
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:..... 7997994
+Numero de Movimentacoes:.... 7997994
+
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:..... 31995994
+Numero de Movimentacoes:.... 31995994
+
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:..... 127991994
+Numero de Movimentacoes:.... 127991994
+
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:..... 511983994
+Numero de Movimentacoes:.... 511983994
+
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:..... 2047967994
+Numero de Movimentacoes:.... 2047967994
+
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:..... 8191935994
+Numero de Movimentacoes:.... 8191935994
+
+
+TESTE 11 - 256000 Palavras
+
+Numero de Comparacoes:..... 32767871994
+Numero de Movimentacoes:.... 32767871994
+
+
+real    5m56,459s
+user    5m56,347s
+sys     0m0,000s
+

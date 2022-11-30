@@ -1,0 +1,73 @@
+Testes com teste_poc.txt! OK
+
+///-------- Ordenacao com Heapsort --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:............ 4080
+Numero de Movimentacoes:.......... 1915
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:............ 9182
+Numero de Movimentacoes:.......... 4341
+
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:............ 20378
+Numero de Movimentacoes:.......... 9689
+
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:............ 44810
+Numero de Movimentacoes:.......... 21405
+
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:............ 97466
+Numero de Movimentacoes:.......... 46733
+
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:............ 212526
+Numero de Movimentacoes:.......... 102263
+
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:............ 458534
+Numero de Movimentacoes:.......... 221267
+
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:............ 977490
+Numero de Movimentacoes:.......... 472745
+
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:............ 2078086
+Numero de Movimentacoes:.......... 1007043
+
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:............ 4418610
+Numero de Movimentacoes:.......... 2145305
+
+
+TESTE 11 - 256000 Palavras
+
+Numero de Comparacoes:............ 9374370
+Numero de Movimentacoes:.......... 4559185
+
+
+real    0m0,192s
+user    0m0,187s
+sys     0m0,005s
+

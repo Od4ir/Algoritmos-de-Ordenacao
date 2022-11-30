@@ -82,7 +82,7 @@ não processam o teste 11, com 256 mil palavras, então é necessário alterar a
         make quicksort1
         ./quicksort1
         
->>quicksort1_testes.c:       
+>>quicksort1_testes.c:     
         
         make quicksort1_testes
         ./quicksort1_testes

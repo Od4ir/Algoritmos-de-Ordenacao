@@ -1,0 +1,68 @@
+Testes com teste_oc.txt! OK
+
+///-------- Ordenacao com Quicksort - Versao 1 --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:..... 31125
+Numero de Movimentacoes:.......... 31374
+
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:..... 124750
+Numero de Movimentacoes:.......... 125249
+
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:..... 499500
+Numero de Movimentacoes:.......... 500499
+
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:..... 1999000
+Numero de Movimentacoes:.......... 2000999
+
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:..... 7998000
+Numero de Movimentacoes:.......... 8001999
+
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:..... 31996000
+Numero de Movimentacoes:.......... 32003999
+
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:..... 127992000
+Numero de Movimentacoes:.......... 128007999
+
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:..... 511984000
+Numero de Movimentacoes:.......... 512015999
+
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:..... 2047968000
+Numero de Movimentacoes:.......... 2048031999
+
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:..... 8191936000
+Numero de Movimentacoes:.......... 8192063999
+
+
+real    1m7,957s
+user    1m7,940s
+sys     0m0,005s
+

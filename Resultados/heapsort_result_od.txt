@@ -1,0 +1,74 @@
+Testes com teste_od.txt! OK
+
+///-------- Ordenacao com Heapsort --------///
+
+TESTE 1 - 250 Palavras
+
+Numero de Comparacoes:............ 3426
+Numero de Movimentacoes:.......... 1588
+
+
+TESTE 2 - 500 Palavras
+
+Numero de Comparacoes:............ 7858
+Numero de Movimentacoes:.......... 3679
+
+
+TESTE 3 - 1000 Palavras
+
+Numero de Comparacoes:............ 17650
+Numero de Movimentacoes:.......... 8325
+
+
+TESTE 4 - 2000 Palavras
+
+Numero de Comparacoes:............ 39422
+Numero de Movimentacoes:.......... 18711
+
+
+TESTE 5 - 4000 Palavras
+
+Numero de Comparacoes:............ 86862
+Numero de Movimentacoes:.......... 41431
+
+
+TESTE 6 - 8000 Palavras
+
+Numero de Comparacoes:............ 189554
+Numero de Movimentacoes:.......... 90777
+
+
+TESTE 7 - 16000 Palavras
+
+Numero de Comparacoes:............ 411746
+Numero de Movimentacoes:.......... 197873
+
+
+TESTE 8 - 32000 Palavras
+
+Numero de Comparacoes:............ 889010
+Numero de Movimentacoes:.......... 428505
+
+
+TESTE 9 - 64000 Palavras
+
+Numero de Comparacoes:............ 1899074
+Numero de Movimentacoes:.......... 917537
+
+
+TESTE 10 - 128000 Palavras
+
+Numero de Comparacoes:............ 4055014
+Numero de Movimentacoes:.......... 1963507
+
+
+TESTE 11 - 256000 Palavras
+
+Numero de Comparacoes:............ 8614354
+Numero de Movimentacoes:.......... 4179177
+
+
+real    0m0,213s
+user    0m0,208s
+sys     0m0,005s
+
